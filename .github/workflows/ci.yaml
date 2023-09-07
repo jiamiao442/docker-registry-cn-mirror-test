@@ -26,6 +26,9 @@ jobs:
           mirror.baidubce.com
           hub-mirror.c.163.com
           docker.mirrors.ustc.edu.cn
+          docker.nju.edu.cn
+          dockerhub.azk8s.cn
+          qtid6917.mirror.aliyuncs.com
           mirror.gcr.io
           dockerproxy.com
           $ALIYUN_MIRROR
