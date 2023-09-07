@@ -20,18 +20,11 @@ jobs:
       - name: Test
         run: |
           registrys="
-          docker.io
-          registry-1.docker.io
-          registry.hub.docker.com
           mirror.baidubce.com
-          hub-mirror.c.163.com
-          docker.mirrors.ustc.edu.cn
+          docker.m.daocloud.io
           docker.nju.edu.cn
-          dockerhub.azk8s.cn
-          qtid6917.mirror.aliyuncs.com
-          mirror.gcr.io
+          docker.mirrors.sjtug.sjtu.edu.cn
           dockerproxy.com
-          $ALIYUN_MIRROR
           "
           image="library/nginx:1.25.1-alpine"
 
